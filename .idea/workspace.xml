@@ -22,16 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="006895cc-c99f-42ab-a462-899b5acddea7" name="Default Changelist" comment="build a home screen for an app called Shrine, an e-commerce app that sells clothing and home goods. It will contain:&#10;&#10;A top app bar&#10;A grid list full of products">
-      <change afterPath="$PROJECT_DIR$/mdc_100_series/lib/colors.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyProject.iml" afterDir="false" />
+    <list default="true" id="006895cc-c99f-42ab-a462-899b5acddea7" name="Default Changelist" comment="Material Theming with Color, Shape, Elevation, and Type (Flutter)">
+      <change afterPath="$PROJECT_DIR$/mdc_100_series/lib/backdrop.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdc_100_series/lib/category_menu_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mdc_100_series/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/mdc_100_series/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdc_100_series/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/mdc_100_series/.dart_tool/package_config_subset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mdc_100_series/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/mdc_100_series/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mdc_100_series/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/mdc_100_series/lib/app.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mdc_100_series/lib/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/mdc_100_series/lib/home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdc_100_series/lib/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/mdc_100_series/lib/login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdc_100_series/lib/supplemental/product_columns.dart" beforeDir="false" afterPath="$PROJECT_DIR$/mdc_100_series/lib/supplemental/product_columns.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mdc_100_series/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mdc_100_series/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="103-starter_and_102-complete" />
+        <entry key="$PROJECT_DIR$" value="103-starter_and_102-complete2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +62,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="MDC104-starter_and_103-complete" />
+                    <option name="lastUsedInstant" value="1624025577" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="103-starter_and_102-complete2" />
                     <option name="lastUsedInstant" value="1624008853" />
@@ -140,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623948578703</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Material Theming with Color, Shape, Elevation, and Type (Flutter)">
+      <created>1624018854970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624018854970</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +169,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="In this codelab, you'll build a login page for Shrine that contains:&#10;&#10;An image of Shrine's logo&#10;The name of the app (Shrine)&#10;Two text fields, one for entering a username and the other for a password&#10;Two buttons&#10;&#10;MDC components in this codelab&#10;Text field&#10;Button&#10;Ripple (it is a visual form of feedback for touch events)" />
     <MESSAGE value="build a home screen for an app called Shrine, an e-commerce app that sells clothing and home goods. It will contain:&#10;&#10;A top app bar&#10;A grid list full of products" />
-    <option name="LAST_COMMIT_MESSAGE" value="build a home screen for an app called Shrine, an e-commerce app that sells clothing and home goods. It will contain:&#10;&#10;A top app bar&#10;A grid list full of products" />
+    <MESSAGE value="Material Theming with Color, Shape, Elevation, and Type (Flutter)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Material Theming with Color, Shape, Elevation, and Type (Flutter)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="142" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623926554880">
@@ -178,6 +189,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1623996238287" />
+    <state x="416" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1624039905805">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="416" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1624039905805" />
     <state x="467" y="120" key="FileChooserDialogImpl" timestamp="1623932490051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -190,30 +205,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="448" y="64" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1623933163290" />
-    <state width="657" height="176" key="GridCell.Tab.0.bottom" timestamp="1624015888186">
+    <state width="1314" height="176" key="GridCell.Tab.0.bottom" timestamp="1624044558531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="657" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624015888186" />
-    <state width="657" height="176" key="GridCell.Tab.0.center" timestamp="1624015888186">
+    <state width="1314" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624044558531" />
+    <state width="1314" height="176" key="GridCell.Tab.0.center" timestamp="1624044558531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="657" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624015888186" />
-    <state width="657" height="176" key="GridCell.Tab.0.left" timestamp="1624015888186">
+    <state width="1314" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624044558531" />
+    <state width="1314" height="176" key="GridCell.Tab.0.left" timestamp="1624044558531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="657" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624015888186" />
-    <state width="657" height="176" key="GridCell.Tab.0.right" timestamp="1624015888186">
+    <state width="1314" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624044558531" />
+    <state width="1314" height="176" key="GridCell.Tab.0.right" timestamp="1624044558531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="657" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624015888186" />
+    <state width="1314" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624044558531" />
     <state x="188" y="10" key="SettingsEditor" timestamp="1623932548169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="188" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1623932548169" />
-    <state x="279" y="98" key="Vcs.Push.Dialog.v2" timestamp="1623948606519">
+    <state x="279" y="98" key="Vcs.Push.Dialog.v2" timestamp="1624018871829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="279" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1623948606519" />
+    <state x="279" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624018871829" />
     <state x="504" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624008292063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
